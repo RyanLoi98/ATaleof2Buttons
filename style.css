@@ -230,7 +230,7 @@ body {
 
 
 /* This targets only the chaisu button, and makes it larger so it is the same size as the other buttons*/
-img[src="https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/chashu%20button.gif?v=1727411383446"]
+img[src="./Assets/Pictures/chashu button.gif"]
 {
   width: 150% !important;
   height: auto;
