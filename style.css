@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/download.png?v=1727071152912");
+  background-image: url("./Assets/Pictures/backgroundimg.png");
   background-size: cover; /* Ensures the image covers the entire container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -237,14 +237,14 @@ img[src="./Assets/Pictures/chashu button.gif"]
 }
 
 /*this css selector targets only the chaisu topping to make it bigger than the other toppings*/
-img[src="https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/chashu%20topping.gif?v=1727411384681"]
+img[src="./Assets/Pictures/chashu topping.gif"]
 {
   width: 40% !important;
   height: auto;
 }
 
 /*this css selector targets only the egg topping to make it bigger than the other toppings*/
-img[src="https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/egg%20topping.gif?v=1727411387392"]
+img[src="./Assets/Pictures/egg topping.gif"]
 {
   width: 40% !important;
   height: auto;
