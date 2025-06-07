@@ -17,10 +17,7 @@ This project was developed as part of the **CPSC 581 Human-Computer Interaction 
 Check out the live version of the project and the source code below:
 
 ## 🌐 Live Site Link:
-[**View the Live Site**](https://a-tale-of-2-buttons.glitch.me)
-
-## 💻 Original Source Code:
-[**Access the Source Code**](https://glitch.com/edit/#!/a-tale-of-2-buttons)
+[**View the Live Site**](https://a-taleof2-buttons.vercel.app/)
 
 
 ## 👥 **Group Members**
@@ -102,4 +99,4 @@ To run the application locally:
 1. **Clone the Repository**
 2. **Open the index.html file on your browser**
 
-However it should be noted that this program should be run on the live site hosted by glitch, as it ensures any dependencies (audio and images) all work properly.
+However it should be noted that this program should be run on the live site hosted by vercel [**View the Live Site here**](https://a-taleof2-buttons.vercel.app/), as it ensures any dependencies (audio and images) all work properly.
