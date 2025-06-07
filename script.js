@@ -35,27 +35,27 @@ const badToppingPrice = document.getElementById("badButtonPrice");
 const budgetWarning = document.getElementById("overBudget");
 
 const goodButtonImages = [
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/chashu%20button.gif?v=1727411383446", // chaisu
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/egg%20button%20.gif?v=1727411386115", // egg
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/fishcake%20button.gif?v=1727411389211", // fish cake
+  "./Assets/Pictures/chashu button.gif", // chaisu
+  "./Assets/Pictures/egg button .gif", // egg
+  "./Assets/Pictures/fishcake button.gif", // fish cake
 ];
 
 const badButtonImages = [
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/Brussel%20button%20.gif?v=1727411375949", // brussell sprouts
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/carrot%20button.gif?v=1727411380986", // carrots
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/pineapple%20button.gif?v=1727411393903", // pineapple
+  "./Assets/Pictures/Brussel button.gif", // brussell sprouts
+  "./Assets/Pictures/carrot button.gif", // carrots
+  "./Assets/Pictures/pineapple button.gif", // pineapple
 ];
 
 const badToppings = [
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/brussel%20topping.gif?v=1727411379365", // brussell sprouts
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/carrot%20topping%20.gif?v=1727413038864", // carrots
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/pineapple%20topping.gif?v=1727411395561", // pineapple
+  "./Assets/Pictures/brussel topping.gif", // brussell sprouts
+  "./Assets/Pictures/carrot topping .gif", // carrots
+  "./Assets/Pictures/pineapple topping.gif", // pineapple
 ];
 
 const goodToppings = [
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/chashu%20topping.gif?v=1727411384681", // chaisu
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/egg%20topping.gif?v=1727411387392", // egg
-  "https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/fishcake%20topping.gif?v=1727411390279", // fish cake
+  "./Assets/Pictures/chashu topping.gif", // chaisu
+  "./Assets/Pictures/egg topping.gif", // egg
+  "./Assets/Pictures/fishcake topping.gif", // fish cake
 ];
 
 // lists to contain the topping prices
@@ -384,7 +384,7 @@ function displayBackgroundGif() {
 
   // Determine which GIF and sound to use based on happinessTotal
   if (happinessTotal > 0) {
-    backgroundGif.src = 'https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/happy.gif?v=1727570582565'; 
+    backgroundGif.src = './Assets/Pictures/happy.gif'; 
     backgroundGif.style.display = 'block';
 
     // Play happy sound
@@ -393,7 +393,7 @@ function displayBackgroundGif() {
       happySound.play();
     }
   } else if (happinessTotal < 0) {
-    backgroundGif.src = 'https://cdn.glitch.global/2ae4a9df-7fc9-497f-a59f-9f88e1d8efc0/sad.gif?v=1727570586300'; 
+    backgroundGif.src = './Assets/Pictures/sad.gif'; 
     backgroundGif.style.display = 'block';
 
     // Play sad sound
